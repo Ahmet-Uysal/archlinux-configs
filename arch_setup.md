@@ -1,5 +1,3 @@
-Harika! O zaman sana **Archinstall ile sıfırdan başlayan, Hyprland + Intel/Nvidia hibrit laptop için tam kurulum rehberi** hazırlayacağım.
-README.md formatında olacak, direkt GitHub repona koyabilirsin.
 
 ---
 
@@ -171,7 +169,12 @@ sudo systemctl enable --now tlp
 * Siyah ekran → TTY ile giriş → `mkinitcpio -P`, reboot
 * Çözünürlük yanlış → `hyprctl monitors` ile config güncelle
 
+
 ---
+```
+env MOZ_ENABLE_WAYLAND=1 firefox
+
+```
 
 ## 🔗 Kaynaklar
 
@@ -181,6 +184,3 @@ sudo systemctl enable --now tlp
 
 ---
 
-Bu rehber **archinstall adımlarını da kapsıyor**, dolayısıyla tamamen sıfırdan kurulumu anlatıyor.
-
-İstersen ben bunu sana **doğrudan GitHub için README.md hazır Markdown dosyası** olarak da oluşturabilirim, böylece tek seferde reponun içine atıp kullanırsın. Bunu yapayım mı?
