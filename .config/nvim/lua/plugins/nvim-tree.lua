@@ -54,6 +54,7 @@ return {
     end
 
     require("nvim-tree").setup({
+             hijack_unnamed_buffer_when_opening = true,
       on_attach = on_attach,
       view = {
         width = 30,
@@ -69,9 +70,14 @@ return {
           },
         },
       },
-      filters = {
+     filters = {
         dotfiles = false,
       },
+            actions = {
+    open_file = {
+      quit_on_open = false,  -- dosya açınca nvim-tree kapanmasın
+    },
+  },
     })
 
     -- Global keymap (örnek): <leader>e ile nvim-tree aç/kapa

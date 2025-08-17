@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AGQeUBGbRik=",
+  "success": true,
+  "projectFilePath": "/home/ahmet/.config/nvim/test/test.csproj",
+  "expectedPackageFiles": [
+    "/home/ahmet/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
